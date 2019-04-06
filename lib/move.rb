@@ -7,13 +7,4 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-
-puts "Welcome to Tic Tac Toe!"
-puts "Please enter 1-9:"
-input = gets.strip
-
-index = input_to_index(input)
-
-move(board, index)
-display_board(board)
+)
